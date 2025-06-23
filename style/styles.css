@@ -1,0 +1,362 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+body {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    background-color: #e9ecef;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+h1, h2, h3 {
+    color: #343a40;
+}
+p {
+    color: #495057;
+    line-height: 1.6;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.tagline {
+    font-style: italic;
+    color: #6c757d;
+}
+
+.sosial-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #007bff;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+button:hover {
+    background-color: #0056b3;
+}
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-family: 'Nunito', sans-serif;
+}
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+@media (max-width:1000px) {
+    .container {
+        width: 95%;
+    }
+    .header, .footer {
+        padding: 15px;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+    button {
+        width: 100%;
+        padding: 12px;
+    }
+}
+@media (max-width: 576px) {
+    h1 {
+        font-size: 1.2em;
+    }
+    h2 {
+        font-size: 1.1em;
+    }
+    h3 {
+        font-size: 1em;
+    }
+    p {
+        font-size: 0.9em;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 70%;
+    }
+    h1 {
+        font-size: 2.5em;
+    }
+    h2 {
+        font-size: 2em;
+    }
+    h3 {
+        font-size: 1.5em;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .container {
+        width: 80%;
+    }
+    h1 {
+        font-size: 2.2em;
+    }
+    h2 {
+        font-size: 1.8em;
+    }
+    h3 {
+        font-size: 1.4em;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .container {
+        width: 90%;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.6em;
+    }
+    h3 {
+        font-size: 1.3em;
+    }
+}
+@media (max-width: 767px) {
+    .container {
+        width: 100%;
+    }
+    h1 {
+        font-size: 1.8em;
+    }
+    h2 {
+        font-size: 1.4em;
+    }
+    h3 {
+        font-size: 1.2em;
+    }
+}
+@media (max-width: 576px) {
+    .sosial-links {
+        flex-direction: column;
+        align-items: center;
+    }
+    .profile-img {
+        width: 120px;
+        height: 120px;
+    }
+}
+@media (max-width: 480px) {
+    .header, .footer {
+        padding: 10px;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+    h2 {
+        font-size: 1.3em;
+    }
+    h3 {
+        font-size: 1.1em;
+    }
+    p {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 360px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+    h1 {
+        font-size: 1.3em;
+    }
+    h2 {
+        font-size: 1.2em;
+    }
+    h3 {
+        font-size: 1em;
+    }
+    p {
+        font-size: 0.8em;
+    }
+}
+@media (max-width: 320px) {
+    .container {
+        width: 100%;
+        padding: 5px;
+    }
+    h1 {
+        font-size: 1.2em;
+    }
+    h2 {
+        font-size: 1.1em;
+    }
+    h3 {
+        font-size: 0.9em;
+    }
+    p {
+        font-size: 0.8em;
+    }
+}
+@media (max-width: 280px) {
+    .container {
+        width: 100%;
+        padding: 2px;
+    }
+    h1 {
+        font-size: 1.1em;
+    }
+    h2 {
+        font-size: 1em;
+    }
+    h3 {
+        font-size: 0.9em;
+    }
+    p {
+        font-size: 0.7em;
+    }
+}
+@media (max-width: 240px) {
+    .container {
+        width: 100%;
+        padding: 1px;
+    }
+    h1 {
+        font-size: 1em;
+    }
+    h2 {
+        font-size: 0.9em;
+    }
+    h3 {
+        font-size: 0.8em;
+    }
+    p {
+        font-size: 0.7em;
+    }
+}
+@media (max-width: 200px) {
+    .container {
+        width: 100%;
+        padding: 0;
+    }
+    h1 {
+        font-size: 0.9em;
+    }
+    h2 {
+        font-size: 0.8em;
+    }
+    h3 {
+        font-size: 0.7em;
+    }
+    p {
+        font-size: 0.6em;
+    }
+}
+@media (max-width: 160px) {
+    .container {
+        width: 100%;
+        padding: 0;
+    }
+    h1 {
+        font-size: 0.8em;
+    }
+    h2 {
+        font-size: 0.7em;
+    }
+    h3 {
+        font-size: 0.6em;
+    }
+    p {
+        font-size: 0.5em;
+    }
+}
+@media (max-width: 120px) {
+    .container {
+        width: 100%;
+        padding: 0;
+    }
+    h1 {
+        font-size: 0.7em;
+    }
+    h2 {
+        font-size: 0.6em;
+    }
+    h3 {
+        font-size: 0.5em;
+    }
+    p {
+        font-size: 0.4em;
+    }
+}
+@media (max-width: 100px) {
+    .container {
+        width: 100%;
+        padding: 0;
+    }
+    h1 {
+        font-size: 0.6em;
+    }
+    h2 {
+        font-size: 0.5em;
+    }
+    h3 {
+        font-size: 0.4em;
+    }
+    p {
+        font-size: 0.3em;
+    }
+}
+@media (max-width: 80px) {
+    .container {
+        width: 100%;
+        padding: 0;
+    }
+    h1 {
+        font-size: 0.5em;
+    }
+    h2 {
+        font-size: 0.4em;
+    }
+    h3 {
+        font-size: 0.3em;
+    }
+    p {
+        font-size: 0.2em;
+    }
+}
