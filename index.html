@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ini web saya</title>
     <link rel="stylesheet" href="style/styles.css">
-</head>
+</head >
 <body>
     <nav class="navbar">
         <ul>
@@ -16,7 +16,7 @@
         </ul>
     </nav>
     <div class="container">
-        <header>
+        <header  class="profile-header">
             <img src="assets/images/profile-img.jpg" alt="Foto Profil" class="profile-img">
             <h1>jufri sani ardiansyah</h1>
             <p class="tagline">junior Web Developer | Programmer | Tech Enthusiast</p>
@@ -27,7 +27,7 @@
         </header>
 
         <section>
-            <div>
+            <div class="about">
                 <h2>tentang saya</h2>
                 <p>halo saya seorang mahasiswa pamulang fakultas komputer dengan program studi teknik informatika
                 saya sangat menyukai dunia teknologi dan pemrograman. saya memiliki pengalaman dalam pengembangan web.</p>
@@ -36,39 +36,59 @@
         </section>
 
         <section>
-            <div>
+            <div class="skills">
                 <h2>Keahlian</h2>
-                <div class="skills">
+                <div class="skills-list">
                     <span class="skill-name">HTML</span>
                     <span class="skill-name">CSS</span>
                     <span class="skill-name">JavaScript</span>
                     <span class="skill-name">Python</span>
                     <span class="skill-name">React</span>
                 </div>
+
             </div>
         </section>
 
         <section>
             <div>
                 <h2>pendidikan</h2>
-                <ul>
+                <ul class="education-list">
                     <li>2024 - seterusnya: Teknik Informatika, Universitas Pamulang</li>
                     <li>2020 - 2023: SMA negeri 01 ciseeng</li>
                 </ul>
+                <div class ="education">
+                     <a href ="#">Lihat Detail Pendidikan</a>
+                </div>
             </div>
         </section>
+
         <section>
             <div>
-                <h2>Kontak</h2>
-                <p>Email: <a href="mailto:jufrisaniardi@gmail.com"class="button-link"target="_blank">jufrisaniardi@gmail.com</a></p>
-                <!-- Button link to actual context -->
-                <a href="https://github.com/kiminobouken" class="button-link1" target="_blank">Kunjungi GitHub Saya</a>
-                <a href="https://www.linkedin.com/in/jufri-sani-ardi-28488b318/" class="button-link2" target="_blank">Kunjungi LinkedIn Saya</a>
-            </div>
+                 
         </section>
-        <footer>
+        <footer class="main-footer">
             <p>&copy; 2023 My Web Page</p>
-        </footer>
+            <p>
+                <a href="mailto:jufrisaniardi@gmail.com" class="button-link1" target="_blank">
+                    <i class="fas fa-envelope"></i> jufrisaniardi@gmail.com
+                </a>
+            </p>
+            <p>
+                <a href="https://github.com/kiminobouken" class="button-link2" target="_blank">
+                    <i class="fab fa-github"></i> Kunjungi GitHub Saya
+                </a>
+            </p>
+            <p>
+                <a href="https://www.linkedin.com/in/jufri-sani-ardi-28488b318/" class="button-link3" target="_blank">
+                    <i class="fab fa-linkedin"></i> Kunjungi LinkedIn Saya
+                </a>
+            </p>
+            <p>
+                <a href="#" class="button-link4" target="_blank">
+                    ikuti <i class="fab fa-instagram"></i>
+                </a>
+            </p>
+
     </div>
     <script src="js/script.js" defer></script>
 </body>
